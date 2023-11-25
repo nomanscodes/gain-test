@@ -16,7 +16,7 @@ function App() {
           <div className="ml-[236px] py-[30px] px-[35px]">
             <Routes>
               <Route path="/" element={<Index />}></Route>
-              <Route path="/about" element={<Timesheet />}></Route>
+              <Route path="/timesheet" element={<Timesheet />}></Route>
             </Routes>
           </div>
         </div>

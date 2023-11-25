@@ -81,7 +81,7 @@ const SideBar = () => {
             </Link>
             <Link
               className="flex items-center justify-center gap-[10px] py-[10px] px-[30px]"
-              to="/about"
+              to="/timesheet"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const SideBar = () => {
               </svg>
               <span
                 className={`text-sm2 font-medium ${
-                  pathName === "/about" ? `text-primary` : `text-regular`
+                  pathName === "/timesheet" ? `text-primary` : `text-regular`
                 } `}
               >
                 Timesheet
