@@ -120,10 +120,12 @@ const SideBar = () => {
         {/* sidebar bottom  */}
         <div className="py-5 px-[30px] border-t-[0.5px]  border-[#D8E0ED]">
           <div className="flex items-center gap-[10px]">
+          {/* admin image  */}
             <img
               className="w-[40px] h-[40px] rounded-full"
               src="/img/user.png"
             />
+          {/* admin image  */}
             <div className="flex flex-col items-start">
               <div className="flex items-center">
                 <p className="text-base font-medium leading-normal text-regular w-[90px]">
@@ -150,6 +152,7 @@ const SideBar = () => {
             </div>
           </div>
         </div>
+        {/* sidebar bottom  */}
       </div>
     </>
   );

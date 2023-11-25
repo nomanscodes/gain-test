@@ -30,6 +30,7 @@ const Home = () => {
           <UserProfile />
         </div>
       </div>
+      {/* end : content  */}
     </motion.div>
   );
 };

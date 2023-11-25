@@ -1,6 +1,7 @@
 const MonthlyTimelogAnaylitics = () => {
   return (
     <div className="flex items-center gap-5">
+    {/* log request  */}
       <div className="flex flex-col items-start py-[22px] px-[30px] rounded-[10px] bg-white">
         <div className="flex w-[162px] items-center gap-[10px]">
           <div className="flex items-start p-[10px] rounded-[10px] bg-yellow-light">
@@ -37,6 +38,7 @@ const MonthlyTimelogAnaylitics = () => {
           </div>
         </div>
       </div>
+      {/* leave request  */}
       <div className="flex flex-col items-start py-[22px] px-[30px] rounded-[10px] bg-white">
         <div className="flex w-[162px] items-center gap-[10px]">
           <div className="flex items-start p-[10px] rounded-[10px] bg-yellow-light">

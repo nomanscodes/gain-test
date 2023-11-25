@@ -24,7 +24,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user2.jpeg",
+        img: "/img/user2.jpeg",
         name: "Alice Smith",
         designation: "UI/UX Designer",
       },
@@ -40,7 +40,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user3.jpeg",
+        img: "/img/user3.jpeg",
         name: "Bob Johnson",
         designation: "Full Stack Developer",
       },
@@ -56,7 +56,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user4.jpeg",
+        img: "/img/user4.jpeg",
         name: "Eva Green",
         designation: "Product Manager",
       },
@@ -72,7 +72,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user5.jpeg",
+        img: "/img/user5.jpeg",
         name: "Michael Brown",
         designation: "QA Engineer",
       },
@@ -88,7 +88,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user.png",
+        img: "/img/user.png",
         name: "Sophie White",
         designation: "Frontend Developer",
       },
@@ -104,7 +104,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user2.jpeg",
+        img: "/img/user2.jpeg",
         name: "David Lee",
         designation: "Data Scientist",
       },
@@ -120,7 +120,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user3.jpeg",
+        img: "/img/user3.jpeg",
         name: "Olivia Taylor",
         designation: "Marketing Specialist",
       },
@@ -136,7 +136,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user4.jpeg",
+        img: "/img/user4.jpeg",
         name: "Chris Evans",
         designation: "Software Engineer",
       },
@@ -152,7 +152,7 @@ const TimesheetTable = () => {
     },
     {
       info: {
-        img: "/public/img/user5.jpeg",
+        img: "/img/user5.jpeg",
         name: "Mia Johnson",
         designation: "Graphic Designer",
       },
@@ -351,10 +351,12 @@ const TimesheetTable = () => {
           {/* table data  */}
         </table>
       </div>
+      {/* deatils modal  */}
       <DetailsModal
         detailsModal={detailsModal}
         setDetailsModal={setDetailsModal}
       />
+      {/* deatils modal  */}
     </>
   );
 };

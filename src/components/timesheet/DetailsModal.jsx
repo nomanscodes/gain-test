@@ -426,6 +426,7 @@ const DetailsModal = ({ detailsModal, setDetailsModal }) => {
           {/* modal bottom  */}
         </div>
       </div>
+      {/* Modal */}
     </>
   );
 };

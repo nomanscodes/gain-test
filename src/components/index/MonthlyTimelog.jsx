@@ -8,6 +8,7 @@ const MonthlyTimelog = () => {
   return (
     <>
       <div className="flex flex-col items-start gap-[30px] p-[30px] rounded-[10px] bg-white">
+        {/* top  */}
         <div className="flex flex-col items-start">
           <h1 className="text-base1 font-medium leading-normal text-dark">
             Monthly timelog
@@ -16,7 +17,10 @@ const MonthlyTimelog = () => {
             This month
           </p>
         </div>
+        {/* top  */}
+        {/* start : charts  */}
         <div className="flex items-start gap-[44px]">
+          {/* scheduled hour  */}
           <div className="flex flex-col items-center gap-5">
             <div className=" h-[100px]">
               <ReactApexChart
@@ -74,7 +78,8 @@ const MonthlyTimelog = () => {
               </div>
             </div>
           </div>
-
+          {/* scheduled hour  */}
+           {/* logged hour  */}
           <div className="flex flex-col items-center justify-center gap-5">
             <div className="h-[100px]">
               <ReactApexChart
@@ -135,7 +140,9 @@ const MonthlyTimelog = () => {
               </div>
             </div>
           </div>
+           {/* logged hour  */}
         </div>
+        {/* end : charts  */}
       </div>
     </>
   );

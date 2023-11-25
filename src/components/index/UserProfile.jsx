@@ -187,6 +187,7 @@ const UserProfile = () => {
             </div>
           </div>
         </div>
+        {/* project log  */}
       </div>
     </>
   );
