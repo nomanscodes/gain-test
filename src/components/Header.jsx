@@ -1,10 +1,11 @@
-const Header = () => {
+// eslint-disable-next-line react/prop-types
+const Header = ({pageTitle}) => {
   return (
     <>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between w-full">
         {/* start : page name  */}
         <p className="text-base2 font-medium text-regular capitalize">
-          Dashboard
+          {pageTitle}
         </p>
         {/* end : page name  */}
         {/* start : search field  */}

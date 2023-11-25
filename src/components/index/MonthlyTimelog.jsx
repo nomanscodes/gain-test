@@ -1,5 +1,5 @@
 import ReactApexChart from "react-apexcharts";
-import { ScheduledOptions, LoggedOptions } from "../../utils/schedule";
+import { ScheduledOptions, LoggedOptions } from "../../../utils/schedule";
 
 const MonthlyTimelog = () => {
   const ScheduledSeries = [60];

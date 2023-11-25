@@ -29,7 +29,7 @@ export default {
       "green": "#0CAA1B",
       "green-light": "#DAF2DC",
       "red": "#FE475B",
-      "red-light": "#FE475B",
+      "red-light": "#FFDADE",
       "dark": "#21214E",
       "blue": "#44A9F1",
       "blue-light": "#E3F2FD",

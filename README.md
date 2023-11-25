@@ -1,5 +1,20 @@
-# React + Vite
+# GAIN SOLUTION WEB DESIGNER TEST
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Required
+- npm,
+- tailwind-css,
+- framer-motion,
+-  react-router-dom
 
-Currently, two official plugins are available:
+#### Installation
+```
+ npm install
+```
+#### Run server with 
+```
+ yarn run dev
+```
+OR
+```
+  npm run dev
+```

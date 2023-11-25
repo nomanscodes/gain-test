@@ -1,13 +1,19 @@
 import Header from "./Header";
-import LeaveOverview from "./LeaveOverview";
-import WellcomeNote from "./WellcomeNote";
-import MonthlyTimelog from "./MonthlyTimelog";
-import MonthlyTimelogAnaylitics from "./MonthlyTimelogAnaylitics";
-import UserProfile from "./UserProfile";
+import LeaveOverview from "./index/LeaveOverview";
+import MonthlyTimelog from "./index/MonthlyTimelog";
+import MonthlyTimelogAnaylitics from "./index/MonthlyTimelogAnaylitics";
+import UserProfile from "./index/UserProfile";
+import WellcomeNote from "./index/WellcomeNote";
+import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <div>
-      <Header />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+    >
+      <Header pageTitle="Dashboard"/>
       {/* start : content  */}
       <div className="flex gap-5 mt-[30px]">
         <div className=" flex flex-col items-start gap-5">
@@ -24,7 +30,7 @@ const Home = () => {
           <UserProfile />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
